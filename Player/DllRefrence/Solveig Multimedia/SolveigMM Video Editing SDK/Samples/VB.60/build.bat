@@ -1,0 +1,11 @@
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_ASF/SMM_Trim_ASF.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_AVCHD/SMM_Trim_AVCHD.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_AVI/SMM_Trim_AVI.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_MKV/SMM_Trim_MKV.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_MOV/SMM_Trim_MOV.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_MP3/SMM_Trim_MP3.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_MP4/SMM_Trim_MP4.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_MPEG1/SMM_Trim_MPEG1.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_MPEG2/SMM_Trim_MPEG2.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_WAV/SMM_Trim_WAV.vbp" /make
+"C:\Program Files\Microsoft Visual Studio\VB98\vb6.exe" "Trim_WMA/SMM_Trim_WMA.vbp" /make

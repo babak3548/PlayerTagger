@@ -1,0 +1,197 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_AVI", "Trim_AVI\SMM_Trim_AVI.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_ASF", "Trim_ASF\SMM_Trim_ASF.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_AVCHD", "Trim_AVCHD\SMM_Trim_AVCHD.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_MKV", "Trim_MKV\SMM_Trim_MKV.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_MOV", "Trim_MOV\SMM_Trim_MOV.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_MP3", "Trim_MP3\SMM_Trim_MP3.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_MP4", "Trim_MP4\SMM_Trim_MP4.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_MPEG1", "Trim_MPEG1\SMM_Trim_MPEG1.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_MPEG2", "Trim_MPEG2\SMM_Trim_MPEG2.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_WAV", "Trim_WAV\SMM_Trim_WAV.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Trim_WMA", "Trim_WMA\SMM_Trim_WMA.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_ASF", "Join_ASF\SMM_Join_ASF.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_AVCHD", "Join_AVCHD\SMM_Join_AVCHD.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_AVI", "Join_AVI\SMM_Join_AVI.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_MKV", "Join_MKV\SMM_Join_MKV.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_MOV", "Join_MOV\SMM_Join_MOV.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_MP3", "Join_MP3\SMM_Join_MP3.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_MP4", "Join_MP4\SMM_Join_MP4.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_MPEG1", "Join_MPEG1\SMM_Join_MPEG1.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_MPEG2", "Join_MPEG2\SMM_Join_MPEG2.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_WAV", "Join_WAV\SMM_Join_WAV.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_Join_WMA", "Join_WMA\SMM_Join_WMA.csproj", "{2501031B-6F33-4CED-B2DB-76A4D3291B87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMM_BMPToAvi", "BMP to AVI utility\SMM_BMPToAvi.csproj", "{5CE18229-1806-4138-899F-30B8EC86BD56}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.ActiveCfg = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Debug.Build.0 = Debug|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.ActiveCfg = Release|.NET
+		{2501031B-6F33-4CED-B2DB-76A4D3291B87}.Release.Build.0 = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.ActiveCfg = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Debug.Build.0 = Debug|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.ActiveCfg = Release|.NET
+		{5CE18229-1806-4138-899F-30B8EC86BD56}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

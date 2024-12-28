@@ -1,0 +1,17 @@
+#pragma once
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// GUID                       Type           Available range      Default Val    Note
+// 
+
+DEFINE_GUID(CLSID_WAVEParser, 
+			0xD51BD5A1, 0x7548, 0x11CF,  0xA5, 0x20, 0x00, 0x80, 0xc7, 0x7e, 0xf5, 0x8a );
+
+#ifdef __cplusplus
+}
+#endif
+

@@ -1,0 +1,298 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\TestMuxerApp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TestMuxerApp.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "res\\logo.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 205, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About ASFMuxerApp"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "TestMuxerApp Version 2.0",IDC_STATIC,8,61,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005-2009 Solveig Multimedia",IDC_STATIC,
+                    8,73,141,8
+    DEFPUSHBUTTON   "OK",IDOK,160,64,39,16,WS_GROUP
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,0,0,205,55
+END
+
+IDD_TESTMUXERAPP_DIALOG DIALOGEX 0, 0, 339, 239
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SMM Mux C++"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Input file:",IDC_STATIC,24,61,32,8
+    LTEXT           "Output file:",IDC_STATIC,24,76,38,8
+    EDITTEXT        IDC_INPUTFILE_EDIT,71,59,235,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_OUTPUTFILE_EDIT,72,75,234,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_INPUTFILE_BUTTON,305,59,17,12,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_OUTPUTFILE_BUTTON,306,75,17,12,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Start",IDC_START_BUTTON,192,202,44,18,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Cancel",IDC_CANCEL_BUTTON,266,202,44,18,0,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Video",IDC_VIDEO_GROUP,17,93,150,72
+    CONTROL         "Treat input video as H.264",
+                    IDC_TREAT_VIDEO_AS_H264_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,120,101,10
+    GROUPBOX        "Misc",IDC_STATIC,18,168,149,57
+    CONTROL         "Index output ASF file",IDC_INDEX_ASF_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,184,84,10
+    CONTROL         "Write output log file",IDC_WRITE_LOG_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,202,79,10
+    PUSHBUTTON      "Show ASF Muxer properties",IDC_SHOW_PROPS_BUTTON,214,
+                    169,110,14,0,WS_EX_STATICEDGE
+    CONTROL         "Transcode",IDC_TRANSCODE_VIDEO_CHECK,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,49,174,49,
+                    10
+    CONTROL         "Use custom FOURCC ",IDC_USE_CUSTOM_FOURCC_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,135,85,10
+    LTEXT           "FOURCC:",IDC_STATIC,25,153,32,8
+    EDITTEXT        IDC_FOURCC_EDIT,57,151,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VIDEO_ENCODER_EDIT,53,189,110,28,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    LTEXT           "Video encoder:",IDC_STATIC,127,176,49,8,NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_VIDEO_ENCODER_BUTTON,93,204,16,13,NOT 
+                    WS_VISIBLE,WS_EX_STATICEDGE
+    GROUPBOX        "Audio",IDC_AUDIO_GROUP,174,93,150,72
+    COMBOBOX        IDC_AUDIO_STREAM_COMBO,233,104,77,49,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Audio stream:",IDC_STATIC,180,105,46,8
+    CONTROL         "Transcode",IDC_AUDIO_TRANSCODE_CHECK,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,95,177,49,
+                    10
+    LTEXT           "Audio encoder:",IDC_STATIC,61,179,50,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_AUDIO_ENCODER_EDIT,59,194,110,28,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_AUDIO_ENCODER_BUTTON,137,205,16,13,NOT 
+                    WS_VISIBLE,WS_EX_STATICEDGE
+    CONTROL         "Enable",IDC_VIDEOENABLE_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,106,37,10
+    CONTROL         "Enable stream",IDC_AUDIOENABLE_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,180,120,61,10
+    PUSHBUTTON      "Build",IDC_BUILD_GRAPH_BUTTON,121,201,44,18,NOT 
+                    WS_VISIBLE,WS_EX_STATICEDGE
+    CONTROL         "Uncompressed",IDC_AUDIO_UNCOKPRESSED_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,250,120,63,10
+    CONTROL         "Uncompressed",IDC_VIDEO_UNCOKPRESSED_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,103,153,59,10
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,177,184,
+                    148,10
+    CTEXT           "",IDC_PROGRESS_STATIC,215,194,67,8
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,65,0,205,55
+    LTEXT           "Language:",IDC_STATIC,180,148,35,8
+    COMBOBOX        IDC_AUDIO_LANG_ID,232,146,79,89,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use language IDs for audio streams",IDC_USE_LANG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,180,134,126,10
+    LTEXT           "Supported formats: ASF",IDC_STATIC,19,228,167,11
+END
+
+IDD_ENCODER_DIALOG DIALOGEX 0, 0, 185, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Select encoder..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST2,7,7,171,156,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,1202,1
+ PRODUCTVERSION 2,0,1202,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Solveig Multimedia"
+            VALUE "FileDescription", "SolveigMM ASF Muxer Sample Appliation"
+            VALUE "FileVersion", "2, 0, 1202, 1"
+            VALUE "InternalName", "TestMuxerApp.exe"
+            VALUE "LegalCopyright", "Copyright © 2004 - 2012 Solveig Multimedia"
+            VALUE "OriginalFilename", "TestMuxerApp.exe"
+            VALUE "ProductName", "SolveigMM ASF Muxer Sample Appliation"
+            VALUE "ProductVersion", "2, 0, 1202, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_TESTMUXERAPP_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 332
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_ENCODER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TestMuxerApp..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\TestMuxerApp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

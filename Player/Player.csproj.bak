@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">X86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88C83A77-B6B4-4C5F-AE3D-4CDA4FF24771}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Player</RootNamespace>
+    <AssemblyName>Player</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|X86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Declarations">
+      <HintPath>VlcDotNet\Declarations.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.BonusSkins.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.Data.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.ExpressApp.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.ExpressApp.Win.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.ExpressApp.Xpo.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v12.1.Core">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.Office.v12.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.Persistent.Base.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.1.Core">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.Printing.v12.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.1.Core">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.RichEdit.v12.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.Utils.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.Xpo.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraBars.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraEditors.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraLayout.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraNavBar.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraPrinting.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraRichEdit.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraTreeList.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.1">
+      <HintPath>..\..\PlayerOutHan\Player\DllRefrence\DevExpress.XtraVerticalGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Implementation">
+      <HintPath>VlcDotNet\Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v3">
+      <HintPath>D:\AccessDll\Janus.Data.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.ButtonBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.Common.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.ExplorerBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.FilterEditor.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.Ribbon.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.Schedule.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.TimeLine.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3">
+      <HintPath>D:\AccessDll\Janus.Windows.UI.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Leadtools.Multimedia, Version=17.5.4.0, Culture=neutral, PublicKeyToken=9cf889f53ea9b907, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\LEADTOOLS Multimedia 17.5\Bin\Dotnet4\Win32\Leadtools.Multimedia.dll</HintPath>
+    </Reference>
+    <Reference Include="LibVlcWrapper">
+      <HintPath>VlcDotNet\LibVlcWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>VlcDotNet\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VSLangProj, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="DataClass\Chapter.cs" />
+    <Compile Include="Controls\GridViewImageTextToolTipController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataControl\BackUp.cs" />
+    <Compile Include="DataControl\ConvertControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\ConvertControl.Designer.cs">
+      <DependentUpon>ConvertControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\IBackUp.cs" />
+    <Compile Include="DataControl\IconvertControl.cs" />
+    <Compile Include="DataControl\IConvertControlBase.cs" />
+    <Compile Include="DataControl\IPlayerControl.cs" />
+    <Compile Include="DataControl\IPlayerControlBase.cs" />
+    <Compile Include="DataControl\LeadConvert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\LeadConvert.Designer.cs">
+      <DependentUpon>LeadConvert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\MediaPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\MediaPlayer.Designer.cs">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\picturePlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\picturePlayer.Designer.cs">
+      <DependentUpon>picturePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\RestoreBackUp.cs" />
+    <Compile Include="DataControl\UCBackUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\UCBackUp.Designer.cs">
+      <DependentUpon>UCBackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\UCRestoreBackup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\UCRestoreBackup.Designer.cs">
+      <DependentUpon>UCRestoreBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\VLCPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\VLCPlayer.Designer.cs">
+      <DependentUpon>VLCPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factory.cs" />
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BackUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BackUpForm.Designer.cs">
+      <DependentUpon>BackUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BackUpRestoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BackUpRestoreForm.Designer.cs">
+      <DependentUpon>BackUpRestoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConvertForm.Designer.cs">
+      <DependentUpon>ConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlayerSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlayerSplashScreen.Designer.cs">
+      <DependentUpon>PlayerSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlayerWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlayerWaitForm.Designer.cs">
+      <DependentUpon>PlayerWaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PopupForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PopupForm1.Designer.cs">
+      <DependentUpon>PopupForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDockMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDockMain.Designer.cs">
+      <DependentUpon>frmDockMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Public class\Dangel.cs" />
+    <Compile Include="DataControl\ChapterListLyoutView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\ChapterListLyoutView.Designer.cs">
+      <DependentUpon>ChapterListLyoutView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataControl\PlayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataControl\PlayerControl.Designer.cs">
+      <DependentUpon>PlayerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Public class\DES.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlayer.Designer.cs">
+      <DependentUpon>FrmPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="DataClass\Playlist.cs" />
+    <Compile Include="DataClass\PlaylistItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public class\ColorMatrixHelper.cs" />
+    <Compile Include="Public class\Converters.cs" />
+    <Compile Include="Public class\DepPropertyHelper.cs" />
+    <Compile Include="Public class\ElementHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Public class\FileHelper.cs" />
+    <Compile Include="Public class\ImagesHelper.cs" />
+    <Compile Include="Public class\ImagesSourceHelper.cs" />
+    <Compile Include="Public class\PlayCtr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataClass\ScreenShot.cs" />
+    <Compile Include="Public class\Serializer.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Setting\AppSetting.cs" />
+    <Compile Include="Setting\ExtentionMethod.cs" />
+    <Compile Include="Setting\Utility.cs" />
+    <EmbeddedResource Include="DataControl\ChapterListLyoutView.resx">
+      <DependentUpon>ChapterListLyoutView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\ConvertControl.en.resx">
+      <DependentUpon>ConvertControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\ConvertControl.fa-IR.resx">
+      <DependentUpon>ConvertControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\ConvertControl.resx">
+      <DependentUpon>ConvertControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\LeadConvert.en.resx">
+      <DependentUpon>LeadConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\LeadConvert.fa-IR.resx">
+      <DependentUpon>LeadConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\LeadConvert.resx">
+      <DependentUpon>LeadConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\MediaPlayer.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\picturePlayer.resx">
+      <DependentUpon>picturePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\PlayerControl.en-AU.resx">
+      <DependentUpon>PlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\PlayerControl.en.resx">
+      <DependentUpon>PlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\PlayerControl.fa-IR.resx">
+      <DependentUpon>PlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\PlayerControl.fa.resx">
+      <DependentUpon>PlayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\PlayerControl.resx">
+      <DependentUpon>PlayerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\UCBackUp.en.resx">
+      <DependentUpon>UCBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\UCBackUp.fa-IR.resx">
+      <DependentUpon>UCBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\UCBackUp.resx">
+      <DependentUpon>UCBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\UCRestoreBackup.fa-IR.resx">
+      <DependentUpon>UCRestoreBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\UCRestoreBackup.fa.resx">
+      <DependentUpon>UCRestoreBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\UCRestoreBackup.resx">
+      <DependentUpon>UCRestoreBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataControl\VLCPlayer.resx">
+      <DependentUpon>VLCPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en-029.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.fa-IR.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BackUpForm.fa.resx">
+      <DependentUpon>BackUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BackUpForm.resx">
+      <DependentUpon>BackUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BackUpRestoreForm.fa.resx">
+      <DependentUpon>BackUpRestoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BackUpRestoreForm.resx">
+      <DependentUpon>BackUpRestoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertForm.resx">
+      <DependentUpon>ConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlayerSplashScreen.resx">
+      <DependentUpon>PlayerSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlayerWaitForm.resx">
+      <DependentUpon>PlayerWaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PopupForm1.resx">
+      <DependentUpon>PopupForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingForm.en.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingForm.fa-IR.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDockMain.resx">
+      <DependentUpon>frmDockMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlayer.resx">
+      <DependentUpon>FrmPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\DataSources\AxAXVLC.AxVLCPlugin2.datasource" />
+    <None Include="Properties\DataSources\Chapter.datasource" />
+    <None Include="Properties\DataSources\Declarations.Media.IMedia.datasource" />
+    <None Include="Properties\DataSources\Declarations.Players.IDiskPlayer.datasource" />
+    <None Include="Properties\DataSources\Declarations.Players.IPlayer.datasource" />
+    <None Include="Properties\DataSources\Leadtools.Multimedia.PlayCtrl.datasource" />
+    <None Include="Properties\DataSources\Player.DataControl.LeadPlayer.datasource" />
+    <None Include="Properties\DataSources\Player.DataControl.MidelPlayer.datasource" />
+    <None Include="Properties\DataSources\Player.DataControl.PlayerControl.datasource" />
+    <None Include="Properties\DataSources\Player.Setting.AppSetting.datasource" />
+    <None Include="Properties\DataSources\Playlist.datasource" />
+    <None Include="Properties\DataSources\PlaylistItem.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AVITRIMMERCOMLib">
+      <Guid>{958BB6C7-14FB-49EF-AFAE-678155680C6A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxMSVidCtlLib">
+      <Guid>{B0EDF154-910A-11D2-B632-00C04F79498E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="CustomEncoder">
+      <Guid>{3A6BAE33-8D78-43D4-BFA5-540925F9A20E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="LMAACEncoderLib">
+      <Guid>{E2B7DD71-38C5-11D5-91F6-00104BDB8FF9}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MSVidCtlLib">
+      <Guid>{B0EDF154-910A-11D2-B632-00C04F79498E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handlersetleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handlersetright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VideoEditor\VideoEditor.csproj">
+      <Project>{AD5A6626-58F8-408D-B208-8833CF538D51}</Project>
+      <Name>VideoEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\faster.jpg" />
+    <Content Include="Resources\Image1.bmp" />
+    <Content Include="Resources\Koala.jpg" />
+    <Content Include="Resources\P1.png" />
+    <Content Include="Resources\P10.png" />
+    <Content Include="Resources\P11.png" />
+    <Content Include="Resources\P12.png" />
+    <Content Include="Resources\P13.png" />
+    <Content Include="Resources\P14.png" />
+    <Content Include="Resources\P15.png" />
+    <Content Include="Resources\P16.png" />
+    <Content Include="Resources\P2.png" />
+    <Content Include="Resources\P3.png" />
+    <Content Include="Resources\P4.png" />
+    <Content Include="Resources\P5.png" />
+    <Content Include="Resources\P6.png" />
+    <Content Include="Resources\P7.png" />
+    <Content Include="Resources\P8.png" />
+    <Content Include="Resources\P9.png" />
+    <Content Include="Resources\playS.png" />
+    <Content Include="Resources\save Shut.png" />
+    <Content Include="Resources\saveShutAFile.png" />
+    <Content Include="Resources\slow.jpg" />
+    <Content Include="Resources\stop.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

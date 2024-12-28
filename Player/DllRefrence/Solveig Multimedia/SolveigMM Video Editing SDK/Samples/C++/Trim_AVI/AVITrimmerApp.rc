@@ -1,0 +1,352 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AVITrimmerApp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AVITrimmerApp.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SM_LOGO             BITMAP                  "res\\sb_transperens_LOGO.bmp"
+IDB_PL_UP               BITMAP                  "res\\bmp00004.bmp"
+IDB_PL_DOWN             BITMAP                  "res\\bmp00005.bmp"
+IDB_PL_DIS              BITMAP                  "res\\bmp00006.bmp"
+IDB_PAUSE2              BITMAP                  "res\\bmp00007.bmp"
+IDB_PAUSE22             BITMAP                  "res\\bmp00008.bmp"
+IDB_PAUSE23             BITMAP                  "res\\bmp00009.bmp"
+IDB_STOP2               BITMAP                  "res\\bmp00002.bmp"
+IDB_STOP22              BITMAP                  "res\\bitmap4.bmp"
+IDB_STOP23              BITMAP                  "res\\bmp00010.bmp"
+IDB_LEFTSEL2            BITMAP                  "res\\bmp00001.bmp"
+IDB_LEFTSEL22           BITMAP                  "res\\bmp00011.bmp"
+IDB_LEFTSEL23           BITMAP                  "res\\bmp00012.bmp"
+IDB_RIGSEL22            BITMAP                  "res\\bmp00014.bmp"
+IDB_RIGSEL23            BITMAP                  "res\\bmp00015.bmp"
+IDB_RIGSEL2             BITMAP                  "res\\bmp00013.bmp"
+IDB_PLAYSELECTED2       BITMAP                  "res\\bmp00016.bmp"
+IDB_PLAYSELECTED22      BITMAP                  "res\\bmp00017.bmp"
+IDB_PLAYSELECTED23      BITMAP                  "res\\bmp00018.bmp"
+IDB_BITMAP_UNCHECKED    BITMAP                  "res\\bitmap3.bmp"
+IDB_BITMAP_CHECKED      BITMAP                  "res\\bitmap_u.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 275, 147
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Solveig Multimedia AVI ASF Trimmer"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CTEXT           "AVITrimmerApp Version 2.0",IDC_STATIC_VER,54,90,168,8,
+                    SS_NOPREFIX
+    CTEXT           "Copyright (C) 2004-2012 Solveig Multimedia",IDC_STATIC,
+                    54,101,168,8
+    DEFPUSHBUTTON   "OK",IDOK,112,121,50,14,WS_GROUP
+    CTEXT           "The application demonstates the abilities of SolveigMM Video Editing SDK. It allows trimming or cuttting off any amount of AVI/ASF fragments with specified time positions.",
+                    IDC_STATIC,14,62,245,29
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,33,
+                    7,205,55
+    CTEXT           "http://www.solveigmm.com",IDC_STATIC,54,111,168,8
+END
+
+IDD_AVITRIMMERAPP_DIALOG DIALOGEX 0, 0, 444, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "SMM Trim C++"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "...",IDC_DIALOGIN,134,26,16,14,BS_NOTIFY
+    PUSHBUTTON      "...",IDC_DIALOGOUT,134,57,16,14
+    LISTBOX         IDC_LIST,282,4,95,143,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Run",IDC_RUN,386,8,47,16,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Stop",IDC_STOP,386,25,47,16,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Invert",IDINVERT,386,63,47,16,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,386,81,47,16,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Remove",IDC_BUTTON_REM,386,99,47,16,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Change",IDC_CHANGE,386,117,47,16,0,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_ENABLESELRANGE | WS_TABSTOP,5,171,432,13
+    EDITTEXT        IDC_EDITFILEIN,13,26,117,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDITFILEOUT,13,57,117,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    GROUPBOX        "Set File",IDC_STATIC,9,4,151,76
+    EDITTEXT        IDC_STARTIME,49,93,50,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_STOPTIME,49,110,50,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_TABSTOP,WS_EX_RIGHT
+    GROUPBOX        "Settings",IDC_STATIC,9,82,152,65
+    LTEXT           "Start time:",IDC_STATIC,15,96,32,8
+    LTEXT           "Stop time:",IDC_STATIC,15,113,32,8
+    LTEXT           "HH:MM:SS:ms",IDC_STATIC,101,96,48,8
+    GROUPBOX        "Progress",IDC_STATIC,168,117,110,30
+    LTEXT           "Source file:",IDC_STATIC,13,17,36,8
+    LTEXT           "Dest file:",IDC_STATIC,13,48,28,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER | 
+                    0x1,172,127,100,14
+    LTEXT           "HH:MM:SS:ms",IDC_STATIC,101,113,48,8
+    EDITTEXT        IDC_CURTIME,343,160,86,13,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_RIGHT
+    LTEXT           "Splitter link",IDC_STATIC_HYPERLINK,189,161,126,8
+    GROUPBOX        "Web:",IDC_STATIC,167,149,162,26
+    GROUPBOX        "",IDC_STATIC,9,149,152,26
+    GROUPBOX        "Current time",IDC_STATIC,335,149,98,25
+    DEFPUSHBUTTON   "",IDC_BUTTON1,147,105,8,7,NOT WS_VISIBLE
+    GROUPBOX        "Stream",IDC_STATIC,168,4,109,75
+    CONTROL         "",IDC_TREE_STREAMS,"SysTreeView32",TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,171,12,102,63
+    CONTROL         "",IDC_BUTTON_PLAY,"Button",BS_OWNERDRAW | WS_TABSTOP,20,
+                    157,16,14
+    CONTROL         "",IDC_BUTTON_PAUSE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    42,157,16,14
+    CONTROL         "",IDC_BUTTON_STOP,"Button",BS_OWNERDRAW | WS_TABSTOP,64,
+                    157,16,14
+    CONTROL         "",IDC_BUTTON_LEFTTSEL,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,86,157,16,14
+    CONTROL         "",IDC_BUTTON_RIGHTSEL,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,108,157,16,14
+    CONTROL         "",IDC_BUTTON_PLAYSELECTED,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,130,157,16,14
+    CONTROL         "Trim overlapped intervals",IDC_CHECK_TRIM_OVERLAPPED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,130,95,10
+    CONTROL         "Frame accurate trimming",IDC_FRAME_ACCURACY,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,175,96,92,9
+    GROUPBOX        "Frame Accuracy",IDC_STATIC,168,82,110,35
+    LTEXT           "Supported formats: AVI, ASF",IDC_STATIC,11,190,199,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,1202,1
+ PRODUCTVERSION 2,0,1202,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Solveig Multimedia"
+            VALUE "FileDescription", "AVITrimmerApp MFC Application"
+            VALUE "FileVersion", "2, 0, 1202, 1"
+            VALUE "InternalName", "AVITrimmerApp"
+            VALUE "LegalCopyright", "Copyright (C) 2004-2012 Solveig Multimedia"
+            VALUE "OriginalFilename", "SMM_AVITrimmerApp.EXE"
+            VALUE "ProductName", "SolveigMM AVI Trimmer"
+            VALUE "ProductVersion", "2, 0, 1202, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_AVITRIMMERAPP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 440
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 197
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About AVITrimmerApp"
+    IDS_STR_MSG_EDIT_ENGINE_NOT_REGISTRED 
+                            "SolveigMM Video Editing COM object has not been registered"
+    IDS_STR_MGS_CAPT_WARNING "Warning"
+    IDS_STR_MSG_CANT_OPEN_VIDEO_FILE "Cannot open video file."
+    IDS_STR_MSG_CANT_FIND_VIDEO_DECODER 
+                            "Cannot find video decoder for preview, but trimming should be Ok"
+    IDS_STR_MSG_CANT_FIND_AUDIO_DECODER 
+                            "Cannot find audio decoder for preview, but trimming should be Ok"
+    IDS_STR_MSG_CANT_FIND_VIDEO_AUDIO_DECODER 
+                            "Cannot find audio/video decoders for preview, but trimming should be Ok"
+    IDS_STR_MSG_CAPT_ERROR  "Error"
+    IDS_STR_MSG_INVALID_PARAM_SMAT_CALLBACK "Invalid parameter SMAT_Callback"
+    IDS_STR_MSG_SRC_FILE_HAS_NOT_BEEN_SET "Source file has not been set"
+    IDS_STR_MSG_DST_FILE_HAS_NOT_BEEN_SET "Destination file has not been set"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STR_MSG_PLS_ADD_VIDEO_FRAGMENT_TO_THE_LIST 
+                            "Please add video fragments to the list."
+    IDS_STR_MSG_CANT_SET_TRIM_MOD_PARAM_PLS_SEL_VIDEO_AUDIO_STRIEAM 
+                            "Can`t set trimmode parameter.\n Please select video or(and) audio streams to be trimmed."
+    IDS_STR_MSG_CANT_SET_TRIM_MOD_PARAM_AUDIO_STREAM_NUM 
+                            "Can`t set trimmode parameter - AudioStreamNumber"
+    IDS_STR_MSG_CANT_SET_TRIM_MOD_PARAM_VIDEO_STREAM_NUM 
+                            "Can`t set trimmode parameter - VideoStreamNumber"
+    IDS_STR_MSG_CANT_SET_TRIM_MOD_PARAM_FLAGS 
+                            "Can`t get trimmode parameter - Flags"
+    IDS_STR_MSG_TRIM_PROC_CANT_BE_STARTED "The trim process can't be started"
+    IDS_STR_MSG_CANT_REOPEN_VIDEO_WINDOW 
+                            "Can't reopen video window. Playind stopped."
+    IDS_STR_MSG_COM_OBJ_ERR "COM Object Error"
+    IDS_STR_MSG_FILE_ISNT_OPENED "File is not opened"
+    IDS_STR_MSG_PLS_SEL_VIDEO_AUDIO_STREAM_TO_BE_PLAYED 
+                            "Please select video or(and) audio streams to be played"
+    IDS_STR_MSG_PLS_SEL_FRAGMENT_FIRST "Please, select fragment first."
+    IDS_STR_MSG_PLS_CHOSE_FRAGMENT_FROM_LIST_FIRST 
+                            "Please, chose fragment from list first."
+    IDS_STR_MSG_CANT_FIND_AVISPLITTER_FLT 
+                            "Can't find AVISplitter filter. Can't create preview."
+    IDS_STR_MSG_CANT_GET_PIN_MEDIATYPE 
+                            "Can't get pin MediaType. Can't create preview."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STR_UNABLE_TO_LOAD_BUTS_BITMAPS "Unable to Load button's bitmap"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\AVITrimmerApp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

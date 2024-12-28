@@ -1,0 +1,333 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SimplePlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR_APP ACCELERATORS 
+BEGIN
+    VK_END,         ID_ACCEL_End,           VIRTKEY, NOINVERT
+    VK_HOME,        ID_ACCEL_Begin,         VIRTKEY, NOINVERT
+    VK_LEFT,        ID_ACCEL_StepBW,        VIRTKEY, NOINVERT
+    VK_RETURN,      ID_ACCEL_FullScreen,    VIRTKEY, ALT, NOINVERT
+    VK_RIGHT,       ID_ACCEL_StepFW,        VIRTKEY, NOINVERT
+    VK_SPACE,       ID_ACCEL_Play,          VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_CLOSE          ICON                    "res\\icon_close.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_INDEX DIALOGEX 0, 0, 272, 58
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,111,34,50,17,BS_FLAT
+    CTEXT           "Indexing...",IDC_STATIC,77,5,117,8
+    CONTROL         "",IDC_PROGRESS_INDEX,"msctls_progress32",WS_BORDER,19,
+                    16,234,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_INDEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SimplePlayer.ico"
+IDI_ICON_STOP           ICON                    "res\\ico_stop.ico"
+IDI_ICON_BACKWARD       ICON                    "res\\ico_bw.ico"
+IDI_ICON_FORWARD        ICON                    "res\\ico_fw.ico"
+IDI_ICON_PLAY           ICON                    "res\\ico_play.ico"
+IDI_ICON_OPEN           ICON                    "res\\ico_open.ico"
+IDI_ICON_FULLSCREEN     ICON                    "res\\ico_fullscr.ico"
+IDI_ICON_PAUSE          ICON                    "res\\ico_pause.ico"
+IDI_ICON_STEPBW         ICON                    "res\\ico_stepbw.ico"
+IDI_ICON_STEPFW         ICON                    "res\\ico_stepfw.ico"
+IDI_ICON_BEGIN          ICON                    "res\\ico_begin.ico"
+IDI_ICON_END            ICON                    "res\\ico_end.ico"
+IDI_ICON_INDEX          ICON                    "res\\icon_index.ico"
+IDI_ICON_MARK           ICON                    "res\\icon_mark.ico"
+IDI_ICON_SAVE           ICON                    "res\\icon_save.ico"
+IDI_ICON_MARK_LEFT      ICON                    "res\\icon_marL.ico"
+IDI_ICON_MARK_RIGHT     ICON                    "res\\icon_marR.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 216, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MPEG-4 AVC MP4 MOV MKV Trimmer"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "SolveigMM MPEG-4 AVC MP4 MOV MKV Trimmer 2.0",
+                    IDC_STATIC,40,10,172,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,87,36,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,10,21,20
+    LTEXT           "Copyright (C) 2009-2012 Solveig Multimedia",IDC_STATIC,
+                    50,23,143,8
+END
+
+IDD_SIMPLEPLAYER_DIALOG DIALOGEX 0, 0, 401, 118
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SMM Trim C++"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Slider1",IDC_SLD_POSITION,"msctls_trackbar32",
+                    TBS_ENABLESELRANGE | WS_TABSTOP,5,69,281,13
+    PUSHBUTTON      "Play",IDC_PLAY,63,82,25,20,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | WS_DISABLED | WS_GROUP
+    PUSHBUTTON      "Stop",IDC_STOP,90,82,25,20,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    LTEXT           "00:00:00:00",IDC_TIME,8,52,50,11,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_ED_FILE,32,5,196,17,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Open",IDC_OPEN,7,5,22,17,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | BS_FLAT | WS_GROUP
+    PUSHBUTTON      "Begin",IDC_BEGIN,9,82,25,20,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "Step Backward",IDC_STEPBW,36,82,25,20,BS_ICON | 
+                    BS_CENTER | BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "Step Forward",IDC_STEPFW,116,82,25,20,BS_ICON | 
+                    BS_CENTER | BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "End",IDC_END,143,82,25,20,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    CTEXT           "00:00:00:00",IDC_DURATION,232,52,50,11,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Pause",IDC_PAUSE,63,82,25,20,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | NOT WS_VISIBLE | WS_GROUP
+    PUSHBUTTON      "Add",IDC_ADD,290,87,46,15,BS_FLAT
+    PUSHBUTTON      "Remove",IDC_REMOVE,349,87,46,15,BS_FLAT
+    EDITTEXT        IDC_ED_FILE_SAVE,32,27,196,17,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Open",IDC_SAVE,7,27,22,17,BS_ICON | BS_CENTER | 
+                    BS_VCENTER | BS_FLAT | WS_GROUP
+    PUSHBUTTON      "MarkRight",IDC_MARK_RIGHT,205,87,15,15,BS_ICON | 
+                    BS_CENTER | BS_VCENTER | BS_FLAT | WS_GROUP
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",0x0,62,52,166,11
+    PUSHBUTTON      "MarkLeft",IDC_MARK_LEFT,187,87,15,15,BS_ICON | 
+                    BS_CENTER | BS_VCENTER | BS_FLAT | WS_GROUP
+    LISTBOX         IDC_LIST,289,5,106,77,LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "TRIM",IDC_TRIM,237,87,46,15,BS_FLAT
+    CONTROL         "Use Index",IDC_CHECK_INDEX,"Button",BS_AUTOCHECKBOX | 
+                    BS_RIGHT | WS_TABSTOP,233,26,48,8,WS_EX_RIGHT
+    CONTROL         "Video Only",IDC_CHECK_VIDEO_ONLY,"Button",
+                    BS_AUTOCHECKBOX | BS_RIGHT | WS_TABSTOP,231,37,50,8,
+                    WS_EX_RIGHT
+    LTEXT           "Supported formats: AVCHD, MP4, MKV, MOV",IDC_STATIC,7,
+                    106,227,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_SIMPLEPLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 111
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,1202,1
+ PRODUCTVERSION 2,0,1202,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "SolveigMM MPEG-4 AVC Trimmer "
+            VALUE "FileVersion", "2, 0, 1202, 1"
+            VALUE "InternalName", "SolveigMM MPEG-4 AVC Trimmer "
+            VALUE "LegalCopyright", "Copyright (C) 2009-2012 Solveig Multimedia"
+            VALUE "OriginalFilename", "SMM_AVCTrimApp.exe"
+            VALUE "ProductName", "SolveigMM MPEG-4 AVC Trimmer "
+            VALUE "ProductVersion", "2, 0, 1202, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About MPEG4AVCTrimApp..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\SimplePlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

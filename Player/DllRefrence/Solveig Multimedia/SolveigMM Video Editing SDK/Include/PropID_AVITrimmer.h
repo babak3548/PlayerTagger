@@ -1,0 +1,22 @@
+#pragma once
+//
+// UIDS of Solveig Multimedia AVI Trimmer Filter
+// The filter GUID
+//
+
+#pragma once
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//		GUID								Type		Available range		Default Val			Note
+//	SMAT_TrimList					VT_BYREF | VT_UI1		[]					[]		Trim parameters list - TrimInfoList structure
+//	SMAT_Progress							VT_I4			[0,100]		[ SMM_ProgressType_TimeBased ]	
+//																						Progress of trimming process in percentage
+// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//
+// SMAT_TrimList,SMAT_Progress, TrimInfoList values are 
+// similar with Editing engine ones and defined in PropID_EditingEngine.h
+//
+
+    
+//Parameter GUIDs are available in the full SDK version
